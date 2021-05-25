@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='mainpage.css') }}">
+    <title>Index</title>
+</head>
+
+<body>
+    <div>
+        <h1>Wikipedia Crawler</h1>
+        <form action="" method="POST">
+            <label for="topic">Start Topic</label><br>
+            <input type="text" name="topic"><br>
+
+            <label for="topic">Branch Length</label><br>
+            <input type="number" name="branch-length"><br>
+
+            <label for="topic">Branch Number</label><br>
+            <input type="number" name="branch-number"><br>
+
+            <label for="csv">New CSV?</label><br>
+            <input type="radio" id="yes" name="csv" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" name="csv" id="no" value="no">
+            <label for="no">No</label><br>
+
+            <input type="submit" name="Search">
+        </form>
+    </div>
+
+</body>
+
+</html>

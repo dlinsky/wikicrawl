@@ -1,0 +1,20 @@
+body{
+    background: white;
+    border-color: grey;
+}
+
+h1{
+    color:blue;
+}
+
+div{
+    text-align: center;
+}
+form{
+    padding:10px;
+    text-align: center;
+}
+
+label,input{
+    margin: 10px;
+}
